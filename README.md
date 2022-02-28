@@ -1,3 +1,3 @@
 # LMDS-Evolutionary-Algorithm-Visualisation
 An LMDS Evolutionary Algorithm Visualization implementation from the journal paper... 
-Content will be realeased before 01 MARCH 2022
+Content will be realeased before 18 MARCH 2022

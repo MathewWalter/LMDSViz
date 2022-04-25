@@ -45,7 +45,7 @@ def Visualise(DataReduced_coords,colouring, label2 = 'problem' ):
 		y = DataReduced_coords[:,1]
 		z = np.array([np.repeat(i, population_size) for i in range(int(len(x)/population_size))]).flatten()
 		
-		#Append first value of tau array to the front of array - missing value
+		#Append first value of tau array to the front of array 
 		tau_xxDummy = colouring[0]
 		colouring.insert(0, tau_xxDummy)
 		tau_xxx = np.array([np.repeat(colouring, population_size)]).flatten()

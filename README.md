@@ -3,4 +3,5 @@ An LMDS Evolutionary Algorithm Visualization implementation from the IEEE Transa
 
 Further updates and additional figures + examples will be provided in May 2022.
 
-
+The code file "LMDS_Open_Source_Visualisation.py" and the Platypus library allow for the creation of LMDS population visualisations. Alternatively, see the "LMDSRead" file for further details for use.
+ 

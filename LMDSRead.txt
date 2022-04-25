@@ -4,7 +4,7 @@ LMDS - http://graphics.stanford.edu/courses/cs468-05-winter/Papers/Landmarks/Sil
 
 LMDS implementation - https://github.com/danilomotta/LMDS/blob/master/mds.py
  
-LMDS can be used as a dimensionality reduction technique to visualise EA population dynamics to understand algorithm performance [https://www.researchgate.net/publication/342376991_Visualising_Evolution_History_in_Multi-_and_Many-Objective_Optimisation].
+LMDS can be used as a dimensionality reduction technique to visualise EA population dynamics to understand algorithm performance [https://www.researchgate.net/publication/359076686_Visualising_Population_Dynamics_to_Examine_Algorithm_Performance].
 
 The following tool can be used to visualise population dynamics with different dimensionality techniques (including PCA, MDS, UMAP), and we refer you to our paper for further details.
 

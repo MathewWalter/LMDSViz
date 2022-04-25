@@ -244,7 +244,7 @@ if __name__ == "__main__":
 			colouring = TauCalculate(Ys, population_size)
 			distanceMatrix = spd.cdist(Ys, Ys)
 
-			#Choose dimentionality reduction technique 
+			#Choose the dimensionality reduction technique 
 			#embedding = PCA(n_components=2)
 			#embedding = MDS(n_components=2, n_jobs=-1, dissimilarity="precomputed", random_state=1) #stress function type
 			#embedding = Isomap(n_components=2)

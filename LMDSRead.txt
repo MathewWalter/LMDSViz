@@ -1,0 +1,32 @@
+Introduction
+
+LMDS - http://graphics.stanford.edu/courses/cs468-05-winter/Papers/Landmarks/Silva_landmarks5.pdf
+
+LMDS implementation - https://github.com/danilomotta/LMDS/blob/master/mds.py
+ 
+LMDS can be used as a dimensionality reduction technique to visualise EA population dynamics to understand algorithm performance [https://www.researchgate.net/publication/342376991_Visualising_Evolution_History_in_Multi-_and_Many-Objective_Optimisation].
+
+The following tool can be used to visualise population dynamics with different dimensionality techniques (including PCA, MDS, UMAP), and we refer you to our paper for further details.
+
+
+Visualising data with a dimensionality reduction function (for example, MDS, LMDS or a dimensionality reduction function you have created yourself):
+
+1) We first need to import the code (a file of functions).
+
+2) We need to obtain the entire population of an algorithm run. If using Platypus, we have provided a function (callbackFunciton) in the example to return the population.
+
+3) If using LMDS decide on the landmarks. 
+
+4) Generate colouring (for exploration/exploitation metric).
+
+3) Transform the population into a NxN proximity matrix (function from sklearn module) or an nxn matrix of landmark points if using LMDS.
+
+4) Decide on the embedding and apply the dimension reduction technique using the functions to return the reduced 2-D population. 
+
+5) We can then plot the 2-D population data with the Visualise function.
+
+
+
+-----------------------------------
+
+
